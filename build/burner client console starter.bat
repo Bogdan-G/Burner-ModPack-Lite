@@ -1,4 +1,5 @@
 ﻿
+call pre-start.cmd
 set MC_DIR=.\
 set VERSION=1.7.10
 set VERSION_FORGE=Forge10.13.2.1307-%VERSION%
