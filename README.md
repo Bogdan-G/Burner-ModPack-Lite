@@ -1,4 +1,4 @@
-# Burner-ModPack-Lite
+# Burner ModPack Lite
 The project is a semi-private modpack for MC 1.7.10.
 Some information about the project here:
 http://annimon.com/forum/id367003 (RU)
