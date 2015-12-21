@@ -555,4 +555,47 @@ public class aaf extends zs  {
     IRETURN
     MAXSTACK = 3
     MAXLOCALS = 3
+
+  // access flags 0x1001
+  public synthetic invtweaks$showButtons()Z
+    ICONST_1
+    IRETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1001
+  public synthetic invtweaks$validInventory()Z
+    ICONST_1
+    IRETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1001
+  public synthetic invtweaks$validChest()Z
+    ICONST_0
+    IRETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1001
+  public synthetic invtweaks$largeChest()Z
+    ICONST_0
+    IRETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1001
+  public synthetic invtweaks$rowSize()I
+    BIPUSH 9
+    IRETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
+
+  // access flags 0x1001
+  public synthetic invtweaks$slotMap()Ljava/util/Map;
+    ALOAD 0
+    INVOKESTATIC invtweaks/containers/VanillaSlotMaps.containerWorkbenchSlots (Lzs;)Ljava/util/Map;
+    ARETURN
+    MAXSTACK = 1
+    MAXLOCALS = 1
 }

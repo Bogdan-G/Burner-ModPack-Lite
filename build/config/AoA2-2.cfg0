@@ -1,0 +1,107 @@
+# Configuration file
+
+bar {
+    I:CalefactionBarX=125
+    I:CalefactionBarY=2
+    I:CreationBarX=50
+    I:CreationBarY=2
+    I:EnergyBarX=75
+    I:EnergyBarY=2
+    I:SoulBarX=25
+    I:SoulBarY=2
+    I:TributeBarX=100
+    I:TributeBarY=2
+}
+
+
+biome {
+    I:"Abyss Biome ID"=219
+    I:"Ancient Cavern Biome ID"=220
+    I:"Barathos Biome ID"=221
+    I:"Celeve Biome ID"=222
+    I:"Crystevia Biome ID"=223
+    I:"Deeplands Biome ID"=224
+    I:"Dustopia Biome ID"=225
+    I:"Gardencia Biome ID"=226
+    I:"Greckon Biome ID"=227
+    I:"Haven Biome ID"=228
+    I:"Iromine Biome ID"=229
+    I:"L'borean Biome ID"=230
+    I:"Labricon Biome ID"=231
+    I:"Lelyetia Biome ID"=232
+    I:"Lunalus Biome ID"=233
+    I:"Mysterium Biome ID"=234
+    I:"Precasia Biome ID"=235
+    I:"Runandor Biome ID"=236
+    I:"Voxponds Biome ID"=237
+}
+
+
+datawatcher {
+    I:CreationValue=30
+    I:EnergyValue=27
+    I:SoulValue=29
+    I:Thermal=28
+}
+
+
+dimension {
+    I:"Abyss ID"=9
+    I:"Ancient Cavern ID"=25
+    I:"Barathos ID"=22
+    I:"Celeve ID"=26
+    I:"Crystevia ID"=27
+    I:"Deeplands ID"=15
+    I:"Dustopia ID"=18
+    I:"Gardencia ID"=16
+    I:"Greckon ID"=17
+    I:"Haven ID"=10
+    I:"Iromine ID"=13
+    I:"L'borean ID"=19
+    I:"Labricon ID"=23
+    I:"Lelyetia ID"=24
+    I:"Lunalus ID"=14
+    I:"Mysterium ID"=12
+    I:"Precasia ID"=11
+    I:"Runandor ID"=21
+    I:"Voxponds ID"=20
+}
+
+
+enchantment {
+    I:Archmage=146
+    I:Control=140
+    I:Crush=144
+    I:Overpower=143
+    I:Recharge=142
+    I:Sever=145
+    I:Shell=141
+    I:Slice=148
+    I:Windfury=147
+}
+
+
+skill {
+    I:AnimaX=28
+    I:AnimaY=65
+    I:AuguryX=80
+    I:AuguryY=30
+    I:CalefactionX=54
+    I:CalefactionY=65
+    I:CreationSkillX=54
+    I:CreationSkillY=30
+    I:ForagingX=106
+    I:ForagingY=30
+    I:HunterX=28
+    I:HunterY=30
+    I:InfusionX=132
+    I:InfusionY=30
+    I:InnervationX=210
+    I:InnervationY=30
+    I:RobberyX=184
+    I:RobberyY=30
+    I:RunationX=158
+    I:RunationY=30
+}
+
+

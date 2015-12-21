@@ -1,0 +1,4 @@
+Total amount of conflicted potion ids: 1
+IDs in conflict:
+
+24 is asked by: potion.paralysis (biomesoplenty.common.potions.PotionParalysis), ic2.potion.radiation (ic2.core.IC2Potion)

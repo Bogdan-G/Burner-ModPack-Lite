@@ -320,10 +320,12 @@ public class aji {
     LINENUMBER 187 L0
     ALOAD 0
     GETFIELD aji.u : Z
+    ALOAD 0
+    INVOKESTATIC mods/betterfoliage/client/BetterFoliageClient.getUseNeighborBrightnessOverride (ZLaji;)Z
     IRETURN
    L1
     LOCALVARIABLE this Laji; L0 L1 0
-    MAXSTACK = 1
+    MAXSTACK = 2
     MAXLOCALS = 1
 
   // access flags 0x1
@@ -4196,6 +4198,12 @@ public class aji {
     ICONST_0
    L2
    FRAME FULL [aji ahl I I I I] [I]
+    ALOAD 1
+    ILOAD 2
+    ILOAD 3
+    ILOAD 4
+    ILOAD 5
+    INVOKESTATIC mods/betterfoliage/client/BetterFoliageClient.shouldRenderBlockSideOverride (ZLahl;IIII)Z
     IRETURN
    L9
     LOCALVARIABLE this Laji; L0 L9 0
@@ -4204,7 +4212,7 @@ public class aji {
     LOCALVARIABLE p_149646_3_ I L0 L9 3
     LOCALVARIABLE p_149646_4_ I L0 L9 4
     LOCALVARIABLE p_149646_5_ I L0 L9 5
-    MAXSTACK = 4
+    MAXSTACK = 6
     MAXLOCALS = 6
 
   // access flags 0x1
@@ -6297,10 +6305,12 @@ public class aji {
     FCONST_1
    L2
    FRAME FULL [aji] [F]
+    ALOAD 0
+    INVOKESTATIC mods/betterfoliage/client/BetterFoliageClient.getAmbientOcclusionLightValueOverride (FLaji;)F
     FRETURN
    L3
     LOCALVARIABLE this Laji; L0 L3 0
-    MAXSTACK = 1
+    MAXSTACK = 2
     MAXLOCALS = 1
 
   // access flags 0x1

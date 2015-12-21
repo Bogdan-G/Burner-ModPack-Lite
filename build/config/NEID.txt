@@ -1,0 +1,14 @@
+# Configuration file
+
+neid {
+    #  [default: false]
+    B:"Extend DataWatcher ID blablabla "=true
+
+    #  [default: true]
+    B:"Old worlds support"=true
+
+    #  [default: false]
+    B:"Remove invalid blocks"=false
+}
+
+

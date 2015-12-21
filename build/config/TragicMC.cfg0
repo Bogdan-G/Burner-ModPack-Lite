@@ -1,0 +1,409 @@
+# Configuration file
+
+~CONFIG_VERSION: 1.38.1678 Beta
+
+##########################################################################################################
+# Amulets
+#--------------------------------------------------------------------------------------------------------#
+# Disable specific amulet effects, does not remove the Amulets from the game.
+##########################################################################################################
+
+Amulets {
+    B:allowAmuletLeveling=true
+    B:allowCraftingWithRawMaterials=true
+    B:allowCursedAmuletEffects=true
+    B:allowEpicAmuletEffects=true
+    B:allowNormalAmuletEffects=true
+    B:allowToughKillRecharge=true
+    B:amuletEffectApis=true
+    B:amuletEffectBlacksmith=true
+    B:amuletEffectChicken=true
+    B:amuletEffectClaymation=true
+    B:amuletEffectCreeper=true
+    B:amuletEffectEnderman=true
+    B:amuletEffectHornet=true
+    B:amuletEffectIce=true
+    B:amuletEffectIronGolem=true
+    B:amuletEffectKitsune=true
+    B:amuletEffectMartyr=true
+    B:amuletEffectPeace=true
+    B:amuletEffectSkeleton=true
+    B:amuletEffectSnowGolem=true
+    B:amuletEffectSunken=true
+    B:amuletEffectTime=true
+    B:amuletEffectWither=true
+    B:amuletEffectYeti=true
+    B:amuletEffectZombie=true
+    I:amuletReleaseRarity=5
+    I:maxAmuletSlots=3
+    I:overallAmuletRarity=5
+    B:requireUnlockAmuletSlots=true
+    B:showAmuletStatusGui=true
+}
+
+
+##########################################################################################################
+# Blanket Configs
+#--------------------------------------------------------------------------------------------------------#
+# These toggle all options in their respective categories off.
+##########################################################################################################
+
+"Blanket Configs" {
+    B:allowAmulets=true
+    B:allowDimension=true
+    B:allowDoom=true
+    B:allowEnchantments=true
+    B:allowMobs=true
+    B:allowPotions=true
+    B:allowVanillaChanges=true
+    B:allowWorldgen=true
+}
+
+
+##########################################################################################################
+# Dimension
+#--------------------------------------------------------------------------------------------------------#
+# Set the various biome IDs in the Dimension, including the Dimension's own ID, also set if the Dimension should stay loaded.
+##########################################################################################################
+
+Dimension {
+    I:biomeAshenBadlandsID=219
+    I:biomeAshenHillsID=220
+    I:biomeAshenMountainsID=221
+    I:biomeDecayingHillsID=222
+    I:biomeDecayingMountainsID=223
+    I:biomeDecayingValleyID=224
+    I:biomeDecayingWastelandID=225
+    I:biomePaintedClearingID=226
+    I:biomePaintedForestID=227
+    I:biomePaintedHillsID=228
+    I:biomePaintedPlainsID=229
+    I:biomeStarlitCliffsID=230
+    I:biomeStarlitLowlandsID=231
+    I:biomeStarlitPlateausID=232
+    I:biomeStarlitPrarieID=233
+    I:biomeTaintedArchipelagoID=234
+    I:biomeTaintedIslesID=235
+    I:biomeTaintedRisesID=236
+    I:biomeTaintedScarlandsID=237
+    I:biomeTaintedSpikesID=238
+    I:dimensionID=2
+    B:keepDimensionLoaded=false
+    I:providerID=2
+}
+
+
+##########################################################################################################
+# Doom
+#--------------------------------------------------------------------------------------------------------#
+# Set various aspects of Doom and Doomsdays, refill amounts scale to total doom amount
+##########################################################################################################
+
+Doom {
+    B:allowBacklash=true
+    B:allowCombinationDoomsdays=true
+    B:allowCooldown=true
+    B:allowCooldownDefuse=true
+    B:allowCrisisDoomsdays=true
+    B:allowCrucialMoments=true
+    B:allowDoomConsumeRefill=true
+    B:allowDoomNaturalRecharge=true
+    B:allowDoomPainRecharge=true
+    B:allowDoomsdays=true
+    B:allowInfluenceDoomsdays=true
+    B:allowNonDoomsdayAbilities=true
+    B:allowOverflowDoomsdays=true
+    B:allowWorldShaperDoomsdays=true
+    I:backlashChance=5
+    I:cooldownDefuseRarity=5
+    I:cooldownDefuseRefillAmount=30
+    I:crucialMomentChance=5
+    I:doomConsumeRarity=3
+    I:doomConsumeRefillAmount=50
+    I:doomRechargeRate=1
+    I:maxDoomAmount=500
+    B:requireDoomConsumeUse=true
+    B:showDoomGui=true
+}
+
+
+##########################################################################################################
+# Enchantments
+#--------------------------------------------------------------------------------------------------------#
+# Set whether specific Enchantments are allowed, also can choose whether an enchantment type is allowed, also set their IDs
+##########################################################################################################
+
+Enchantments {
+    B:absolveAllow=true
+    I:absolveID=74
+    B:agilityAllow=true
+    I:agilityID=90
+    B:allowArmorEnchantments=true
+    B:allowWeaponEnchantments=true
+    B:combustionAllow=true
+    I:combustionID=80
+    B:consumeAllow=true
+    I:consumeID=77
+    B:deathTouchAllow=true
+    I:deathTouchID=85
+    B:decayAllow=true
+    I:decayID=64
+    B:distractAllow=true
+    I:distractID=78
+    B:elasticityAllow=true
+    I:elasticityID=89
+    B:ignitionAllow=true
+    I:ignitionID=86
+    B:leechAllow=true
+    I:leechID=76
+    B:multiplyAllow=true
+    I:multiplyID=79
+    B:paralysisAllow=true
+    I:paralysisID=88
+    B:reachAllow=true
+    I:reachID=82
+    B:runeBreakAllow=true
+    I:runeBreakID=81
+    B:runeWalkerAllow=true
+    I:runeWalkerID=91
+    B:rustAllow=true
+    I:rustID=84
+    B:slayAllow=true
+    I:slayID=65
+    B:toxicityAllow=true
+    I:toxicityID=87
+    B:unbreakableAllow=true
+    I:unbreakableID=83
+    B:vampirismAllow=true
+    I:vampirismID=75
+}
+
+
+##########################################################################################################
+# Master Configs
+#--------------------------------------------------------------------------------------------------------#
+# These change all other options and may even set specific variables, items are never disabled at any point
+##########################################################################################################
+
+"Master Configs" {
+    B:isMobsOnly=false
+    I:textureResolution=16
+}
+
+
+##########################################################################################################
+# Miscellaneous
+#--------------------------------------------------------------------------------------------------------#
+# Miscellaneous options that don't fit into other categories.
+##########################################################################################################
+
+Miscellaneous {
+    B:allowAnimatedGui=true
+    B:allowChallengeScrolls=true
+    B:allowMobStatues=true
+    B:allowRandomWeaponLore=true
+    I:challengeScrollDropChance=5
+    I:guiTextureSkins=0
+    I:guiTransparency=100
+    I:mobStatueDropChance=100
+}
+
+
+##########################################################################################################
+# Mobs
+#--------------------------------------------------------------------------------------------------------#
+# Set whether specific Mobs are allowed, or disable certain groups like Mini-Bosses or Bosses, also set their Spawn Chances
+##########################################################################################################
+
+Mobs {
+    B:abominationAllow=true
+    I:abominationSpawnChance=25
+    B:allowBosses=true
+    B:allowCorruptionDamage=true
+    B:allowExtraBossLoot=true
+    B:allowMiniBosses=true
+    B:allowMobTransformation=true
+    B:allowNaturalBossSpawns=true
+    B:allowNormalMobs=true
+    B:allowVictoryBuffs=true
+    B:apisAllow=true
+    I:apisSpawnChance=5
+    B:claymationAllow=true
+    I:claymationSpawnChance=5
+    B:cryseAllow=true
+    I:cryseSpawnChance=75
+    B:deathReaperAllow=true
+    I:deathReaperSpawnChance=5
+    B:enyvilAllow=true
+    I:enyvilSpawnChance=5
+    B:erkelAllow=true
+    I:erkelSpawnChance=25
+    B:gragulAllow=true
+    I:gragulSpawnChance=25
+    B:greaterStinAllow=true
+    I:greaterStinSpawnChance=5
+    B:inklingAllow=true
+    I:inklingSpawnChance=75
+    B:jabbaAllow=true
+    I:jabbaSpawnChance=75
+    B:jannaAllow=true
+    I:jannaSpawnChance=50
+    B:jarraAllow=true
+    I:jarraSpawnChance=5
+    B:kitsuneAllow=true
+    I:kitsuneSpawnChance=5
+    B:kragulAllow=true
+    I:kragulSpawnChance=5
+    B:lavaPirahAllow=true
+    I:lavaPirahSpawnChance=25
+    B:magmoxAllow=true
+    I:magmoxSpawnChance=5
+    B:megaCryseAllow=true
+    I:megaCryseChance=5
+    B:minotaurAllow=true
+    I:minotaurSpawnChance=75
+    I:mobTransformationChance=3
+    B:norVoxAllow=true
+    I:norVoxSpawnChance=25
+    I:overallMobCommonDropChance=25
+    I:overallMobRareDropChance=5
+    B:pirahAllow=true
+    I:pirahSpawnChance=25
+    B:plagueAllow=true
+    I:plagueSpawnChance=50
+    B:polarisAllow=true
+    I:polarisSpawnChance=5
+    B:poxAllow=true
+    I:poxSpawnChance=50
+    B:pumpkinheadAllow=true
+    I:pumpkinheadSpawnChance=75
+    B:ragrAllow=true
+    I:ragrSpawnChance=25
+    B:sirvAllow=true
+    I:sirvSpawnChance=50
+    B:starCryseAllow=true
+    I:starCryseSpawnChance=75
+    B:starVoxAllow=true
+    I:starVoxSpawnChance=25
+    B:stinAllow=true
+    B:stinBabyAllow=true
+    I:stinBabySpawnChance=50
+    B:stinKingAllow=true
+    I:stinKingSpawnChance=5
+    B:stinQueenAllow=true
+    I:stinQueenSpawnChance=5
+    I:stinSpawnChance=25
+    B:timeControllerAllow=true
+    I:timeControllerSpawnChance=5
+    B:toxAllow=true
+    I:toxSpawnChance=50
+    B:tragicNekoAllow=true
+    I:tragicNekoSpawnChance=50
+    B:voxStellarumAllow=true
+    I:voxStellarumSpawnChance=5
+    B:wispAllow=true
+    I:wispSpawnChance=15
+    B:yetiAllow=true
+    I:yetiSpawnChance=5
+}
+
+
+##########################################################################################################
+# Potions
+#--------------------------------------------------------------------------------------------------------#
+# Set whether specific Potion Effects are allowed, or disable all good or all bad effects, also set their IDs
+##########################################################################################################
+
+Potions {
+    B:allowNegativePotionEffects=true
+    B:allowPositivePotionEffects=true
+    B:aquaSuperiorityAllow=true
+    I:aquaSuperiorityID=64
+    B:clarityAllow=true
+    I:clarityID=69
+    B:corruptionAllow=true
+    I:corruptionID=71
+    B:crippleAllow=true
+    I:crippleID=76
+    B:disorientationAllow=true
+    I:disorientationID=72
+    B:fearAllow=true
+    I:fearID=74
+    B:flightAllow=true
+    I:flightID=63
+    B:harmonyAllow=true
+    I:harmonyID=67
+    B:immunityAllow=true
+    I:immunityID=65
+    B:inhibitAllow=true
+    I:inhibitID=78
+    B:invulnerabilityAllow=true
+    I:invulnerabilityID=68
+    B:malnourishAllow=true
+    I:malnourishID=75
+    B:resurrectionAllow=true
+    I:resurrectionID=66
+    B:stunAllow=true
+    I:stunID=73
+    B:submissionAllow=true
+    I:submissionID=77
+}
+
+
+##########################################################################################################
+# Vanilla Changes
+#--------------------------------------------------------------------------------------------------------#
+# These are all of the things that are changed in Vanilla by this mod, OreGen only affects Overworld and Nether types of the ores
+##########################################################################################################
+
+"Vanilla Changes" {
+    B:allowAnimalRetribution=true
+    B:allowBabySpawns=false
+    B:allowExtraExplosiveEffects=true
+    B:allowExtraMobEffects=true
+    B:allowMobModdedArmorAndEnchantments=true
+    B:allowModdedOverworldFlowerGen=true
+    B:allowNetherOreGen=true
+    B:allowOverworldOreGen=true
+    B:allowOverworldSilverfishOregen=true
+    B:allowQuicksandAndDrudgeGen=true
+    B:allowRespawnPunishment=true
+    B:allowVanillaMobBuffs=true
+    I:mercuryOreGenRate=20
+    I:netherDrudgeGenRate=10
+    I:quicksandGenRate=5
+    I:rubyOreGenRate=10
+    I:sapphireOreGenRate=10
+    I:silverfishGenRate=12
+    I:tungstenOreGenRate=10
+}
+
+
+##########################################################################################################
+# WorldGen
+#--------------------------------------------------------------------------------------------------------#
+# These toggle specific WorldGen features, meant to help with lag reduction if your CPU cannot handle it during WorldGen, also toggle rarities of structures
+##########################################################################################################
+
+WorldGen {
+    B:allowBossStructureGen=true
+    B:allowDarkStoneVariantGen=true
+    B:allowLargeSpikeGen=true
+    B:allowNonBossStructureGen=true
+    B:allowStructureGen=true
+    B:allowVoidPitGen=true
+    I:apisTempleRarity=5
+    I:celestialTempleRarity=3
+    I:deathCircleRarity=5
+    I:desertTowerRarity=15
+    I:kitsuneDenRarity=5
+    I:largeSpikeRarity=95
+    I:obsidianCavernRarity=10
+    I:starCrystalRarity=10
+    I:structureOverallRarity=5
+    I:timeAltarRarity=5
+    I:voidPitRarity=5
+    I:yetiRavineRarity=5
+}
+
+
