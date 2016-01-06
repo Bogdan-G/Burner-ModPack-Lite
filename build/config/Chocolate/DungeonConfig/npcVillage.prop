@@ -4,7 +4,7 @@ biomes = PLAINS, WASTELAND, FOREST, SWAMP
 #chance: define the ratio at wich the dungeon spawns, if set to 0 the dungeon will be disabled.
 #The formula goes like that: every 5 chunks there is 1 between the number set to chance probabilities to spawn a dungeon.
 
-chance = 80
+chance = 8
 
 #mob: defines the mob spawned in that dungeon
 mob = default

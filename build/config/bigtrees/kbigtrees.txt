@@ -38,7 +38,7 @@ but do generate them in dimension 0"
 The following options mean "do allow manual big tree growth (from saplings)
 in all dimensions"
   manual-generation = true
-  manual-generation-exceptions = none
+  manual-generation-exceptions = -1, 7, 1, -17, -399, 69, -222, -127, -37, -38, -39, -43, 521, 520, 519, 44, 518, 43, 517, 42, 516, 515, 514, 513, 512, 511, 510, 509, 508, 507, 506, 505, 504, 503, 502, 501, 301, 300, 205, 2
 If, for example, you wanted to not allow manual big tree growth in the
 nether and some dimension 2, you could put:
 //  manual-generation = true

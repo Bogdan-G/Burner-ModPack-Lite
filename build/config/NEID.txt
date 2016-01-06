@@ -1,14 +1,18 @@
 # Configuration file
 
 neid {
-    #  [default: false]
     B:"Extend DataWatcher ID blablabla "=true
 
-    #  [default: true]
+    #  [default: false]
+    B:ExtendDataWatcher=true
     B:"Old worlds support"=true
 
+    #  [default: true]
+    B:OldWorldsSupport=true
+    B:"Remove invalid blocks"=true
+
     #  [default: false]
-    B:"Remove invalid blocks"=false
+    B:RemoveInvalidBlocks=true
 }
 
 
