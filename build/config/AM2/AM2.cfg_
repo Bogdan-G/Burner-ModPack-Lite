@@ -34,10 +34,13 @@ enchantments {
 
 general {
     # If true, AM2 will automatically download compendium updates when available for your mod version.
-    B:Allow_Compendium_Updates=false
+    B:Allow_Compendium_Updates=true
+
+    # Disable this to prevent spell effects on creative players
+    B:Allow_Creative_Targets=true
 
     # If true, AM2 will notify you via the compendium when new versions are available.  It will not spam chat on login.  You will not be notified of updates that are not for your current Minecraft version.
-    B:Allow_Version_Checks=false
+    B:Allow_Version_Checks=true
 
     # Comma-separated list of block IDs that appropriation cannot pick up.
     S:Appropriation_Block_Blacklist=
@@ -78,8 +81,6 @@ general {
 
     # Set this to false in order to disable gateways sending you partial distances if you don't have enough power.
     B:Hazardous_Gateways=true
-#    I:MMFBiomeID=99
-#    I:MMFDimensionID=-31
 
     # Sets the maximum mana a player can have (0 for no cap)
     I:Mana_Cap=0
@@ -106,7 +107,7 @@ general {
 
     # Render spell effects on equipped scrolls rather than the scroll itself (only applies to the in-game one, the one on your hotbar remains unchanged)
     B:Use_Special_Renderers=true
-    I:WitchwoodForestBiomeID=141
+    I:WitchwoodForestBiomeID=100
 
     # Disable this if you experience low FPS in witchwood forests
     B:WitchwoodLeafParticles=true
@@ -191,38 +192,38 @@ mobs {
 
 
 potions {
-    I:agility=100
-    I:astraldistortion=101
-    I:burnoutredux=102
-    I:charmed=103
-    I:chronoanchor=104
-    I:clarity=105
-    I:entangled=106
-    I:epicmanarestoration=107
-    I:featherfall=108
-    I:flight=109
-    I:frostslow=110
-    I:fury=111
-    I:gravitywell=112
-    I:greatermanarestoration=113
-    I:haste=114
-    I:illuminated=115
-    I:leap=116
-    I:legendarymanarestoration=117
-    I:levitation=118
-    I:magicshield=119
-    I:manaboost=120
-    I:manaregen=121
-    I:manashield=122
-    I:regeneration=123
-    I:scramblesynapses=124
-    I:shrunken=125
-    I:silence=126
-    I:spellreflect=127
-    I:swiftswim=128
-    I:truesight=129
-    I:waterbreathing=130
-    I:waterygrave=131
+    I:agility=40
+    I:astraldistortion=43
+    I:burnoutredux=55
+    I:charmed=31
+    I:chronoanchor=33
+    I:clarity=53
+    I:entangled=35
+    I:epicmanarestoration=49
+    I:featherfall=26
+    I:flight=25
+    I:frostslow=32
+    I:fury=45
+    I:gravitywell=51
+    I:greatermanarestoration=48
+    I:haste=27
+    I:illuminated=47
+    I:leap=41
+    I:legendarymanarestoration=50
+    I:levitation=52
+    I:magicshield=30
+    I:manaboost=42
+    I:manaregen=34
+    I:manashield=44
+    I:regeneration=29
+    I:scramblesynapses=46
+    I:shrunken=54
+    I:silence=38
+    I:spellreflect=37
+    I:swiftswim=39
+    I:truesight=28
+    I:waterbreathing=24
+    I:waterygrave=36
 }
 
 
