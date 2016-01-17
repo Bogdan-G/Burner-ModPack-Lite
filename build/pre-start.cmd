@@ -1,9 +1,0 @@
-attrib +r .\optionsof.txt
-attrib +r .\config\erebus.cfg
-attrib +r .\config\EternalIsles.cfg
-attrib +r .\config\extrabiomes.cfg
-attrib +r .\config\TinkersConstruct.cfg
-attrib +r .\config\TwilightForest.cfg
-attrib +r .\config\biomesoplenty\ids.cfg
-attrib +r .\config\buildcraft\main.conf
-attrib +r .\config\MoCreatures\MoCSettings.cfg
