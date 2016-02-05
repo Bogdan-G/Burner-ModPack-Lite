@@ -9,8 +9,10 @@ VK group: https://vk.com/mbc_bmpl (RU)
 Yes, you asked, this is the place where you can write an error or bug, as well as see the history of updates.
 
 ===
-Google drive, modpack build:
+Google drive, old (to PR-5) modpack build:
 https://drive.google.com/folderview?id=0Byc0WC4JQH_uc3A1YzVWdHlZbFE&usp=drive_web#list
+PR-6 beta builds:
+https://yadi.sk/d/Q_CKlghLn95FQ
 
 ## Credits
 Contributors projects: MC, MCP, Forge, Bukkit, Spigot, PaperSpigot, Cauldron, KCauldron, Thermos, NEID, etc
