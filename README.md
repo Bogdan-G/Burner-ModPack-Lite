@@ -21,7 +21,7 @@ https://yadi.sk/d/Q_CKlghLn95FQ
 1. write in [this thread on site](http://annimon.com/forum/id367003) or on [site to me in private message](http://annimon.com/str/anketa.php?id=1376)
 2. write to me on [vk](https://vk.com/bogdangsm)
 3. write in skype bogdan123493
-4. write on the [github](https://github.com/Bogdan-G/Burner-ModPack-Lite/issues)
+4. write in [this repository](https://github.com/Bogdan-G/Burner-ModPack-Lite/issues)
 5. write in the [vk group](https://vk.com/mbc_bmpl)
 6. write in the Discord on the nickname Bogdan-G#0523
 
