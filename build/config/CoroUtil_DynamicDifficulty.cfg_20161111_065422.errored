@@ -1,0 +1,49 @@
+# Configuration file
+
+ {
+    D:=
+
+    # what level of difficulty is required to count as 100% chance
+    D:=
+
+    # Distance from spawn required to hit the max difficulty for this setting
+    I:=
+    D:=
+    D:=
+
+    # what level of difficulty is required to count as 100% chance
+    D:=
+
+    # How long it takes to reach max difficulty level for a specific chunk in gameplay ticks (50 hours)
+    I:=
+    I:=
+    D:=
+
+    # How long it takes to reach max difficulty level for a specific player in gameplay ticks (50 hours)
+    I:=
+    D:=
+    D:=
+    D:=
+    I:=
+
+    # what level of difficulty is required to count as 100% chance
+    D:=
+    D:=
+    D:=
+
+    # Track chunk bound data required for some difficulty calculations, disable if issues with server stability relating to CoroUtil
+    B:=
+    D:=
+    B:=
+    D:=
+
+    # -1 = dont cap it
+    D:=
+}
+
+
+ {
+    D:=
+}
+
+

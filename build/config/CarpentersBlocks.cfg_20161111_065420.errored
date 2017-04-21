@@ -1,0 +1,125 @@
+# Configuration file
+
+ {
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+    I:=
+}
+
+
+ {
+    B:=
+    D:=
+    B:=
+    I:=
+    D:=
+    D:=
+    B:=
+    B:=
+}
+
+
+ {
+    B:=
+
+    # This allows garage doors to automatically fill in gaps when barriers beneath doors are destroyed.
+    B:=
+
+    # This controls whether panes (used in doors, hatches, and other blocks) should render on alpha pass.
+    # This is needed to allow translucent window glass, for instance.
+    B:=
+    B:=
+
+    # When enabled, unobstructed stationary fluid adjacent to block will render in the block space.
+    # Note: when enabled, you may experience noticeable chunk update lag spikes.
+    B:=
+    B:=
+    B:=
+
+    # This maps items to overlays.
+    # Items are prefixed with display names (en_US only).
+    # Overlay suffixes are :grass, :snow, :web, :vine, :hay, :mycelium
+    S: <
+        Seeds:grass
+        Snowball:snow
+        String:web
+        Vines:vine
+        Wheat:hay
+        Mushroom:mycelium
+     >
+    B:=
+
+    # This will prevent players besides you and server operators from editing your objects.
+    # Note: this does not protect objects against destruction (intentional), and may allow activation if appropriate. Also, the Carpenter's Safe is not affected by this.
+    B:=
+
+    # This controls whether torches extinguish themselves when exposed to rain or snow.
+    B:=
+
+    # This controls how many blocks can be connected as a single entity.
+    # Note: only applies to Garage Doors.
+    I:=
+
+    # This will enable players to cover blocks with glowstone dust to make them illuminate.
+    B:=
+
+    # This allows restricted blocks to be used as covers.
+    # Add your own by supplying the display name for the block (en_US only).
+    S: <
+        Silverwood Planks
+        Greatwood Planks
+        Thatch
+     >
+
+    # This controls the smoothness of the slope faces.
+    # Note: smoothness of 2 is similar to stairs, while a value above 25 is generally fluid.
+    I:=
+
+    # This allows Carpenter's Blocks with solid top faces to create slopes above them when a sloping rail is above the block.
+    B:=
+    B:=
+}
+
+
+ {
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+}
+
+
+ {
+    B:=
+}
+
+

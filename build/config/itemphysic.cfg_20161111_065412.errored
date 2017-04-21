@@ -1,0 +1,24 @@
+# Configuration file
+
+ {
+    B:=
+    I:=
+
+    #  [range: 0.0 ~ 100.0, default: 1.0]
+    S:100.0=
+    I:=
+
+    #  [range: 0.0 ~ 999.0, default: 8.0]
+    S:999.0=
+    B:=
+    B:=
+}
+
+
+ {
+    S:=
+    S:=
+    B:=
+}
+
+

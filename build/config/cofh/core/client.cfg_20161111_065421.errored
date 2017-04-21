@@ -1,0 +1,54 @@
+# Configuration file
+
+ {
+    # Set to true to draw borders on GUI slots in CoFH Mods, where applicable.
+    B:=
+
+     {
+        # Set to false to hide a tooltip prompting you to press Shift for more details on various items.
+        B:=
+
+        # Set to true to display large item counts as stacks rather than a single quantity.
+        B:=
+    }
+
+}
+
+
+ {
+    # Set to false to disable warnings about Ops having access to 'secure' blocks upon logging on to a server.
+    B:=
+}
+
+
+ {
+    # Set to false to disable shader effects in CoFH Mods.
+    B:=
+
+    # Set to true to use Color Blind Textures in CoFH Mods, where applicable.
+    B:=
+}
+
+
+ {
+    B:=
+
+     {
+        I:=
+    }
+
+}
+
+
+ {
+    # Set to false to disable any particles from spawning in Minecraft.
+    B:=
+
+    # Set to false to disable chunk sorting during rendering.
+    B:=
+
+    # Set to false to disable all animated textures in Minecraft.
+    B:=
+}
+
+

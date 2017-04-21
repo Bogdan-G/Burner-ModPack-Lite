@@ -1,0 +1,19 @@
+# Configuration file
+
+ {
+    B:=
+}
+
+
+ {
+    # Fills the ocean with land biomes if there is an excessive amount. This must be disabled to use the landmass percentage
+    B:=
+
+    # Requires ocean filler to be disabled. In Vanilla it is set to 10. Takes values from 0 to 100.
+    I:=
+
+    # Default World Type has 4. Large Biomes World Type has 6.
+    I:=
+}
+
+

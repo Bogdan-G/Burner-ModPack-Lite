@@ -1,0 +1,16 @@
+# Configuration file
+
+ {
+    # What should be the new potion id limit (Vanilla is 32)
+    I:=
+
+    # Whether Potion ID Conflicts are supposed to be logged to the console. (Otherwise they will be logged to the DEBUG log)
+    B:=
+}
+
+
+ {
+    B:=
+}
+
+

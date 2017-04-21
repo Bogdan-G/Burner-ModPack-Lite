@@ -1,0 +1,23 @@
+# Configuration file
+
+ {
+    B:=
+    B:=
+    I:=
+    B:=
+    B:=
+    S:=
+    S:=
+    B:=
+
+    # Test admin thing for kcauldron issues, kills zombies a bit after sunrise every cleanupStrayMobsDayRate days
+    B:=
+    I:=
+}
+
+
+ {
+    I:=
+}
+
+

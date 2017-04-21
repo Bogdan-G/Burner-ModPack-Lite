@@ -1,0 +1,28 @@
+# Configuration file
+
+ {
+    # Turn debug mode on/off
+    B:=
+}
+
+
+ {
+    S:=
+}
+
+
+ {
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+    B:=
+}
+
+
+ {
+    B:=
+}
+
+
