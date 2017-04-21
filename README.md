@@ -17,7 +17,7 @@ https://yadi.sk/d/Q_CKlghLn95FQ
 
 #
 
-##Feedback
+## Feedback
 1. write in [this thread on site](http://annimon.com/forum/id367003) or on [site to me in private message](http://annimon.com/str/anketa.php?id=1376)
 2. write to me on [vk](https://vk.com/bogdangsm)
 3. write in skype bogdan123493
